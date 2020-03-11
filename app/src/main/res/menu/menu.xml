@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/Mainpage"
+            android:title="Main"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            >
+        </item>
+        <item android:id="@+id/Advertise"
+            android:title="Advertise item"
+android:icon="@drawable/ic_photo_camera_black_24dp"
+            >
+        </item>
+        <item android:id="@+id/MyAdvertiseitem"
+            android:title="My item"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            >
+        </item>
+        <item android:id="@+id/Order"
+            android:title="My order"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            >
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item android:id="@+id/About"
+            android:title="About"
+            >
+        </item>
+        <item android:id="@+id/Signout"
+            android:title="Sign Out"
+            >
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="_array">
+        <item>Fast food</item>
+        <item>Chinese</item>
+        <item>Desi food</item>
+        <item>Continental</item>
+        <item>Beverages</item>
+        <item>Sweet dish</item>
+        <item>Thai food</item>
+        <item>Other</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "144933553017",
+    "firebase_url": "https://homie-6b680.firebaseio.com",
+    "project_id": "homie-6b680",
+    "storage_bucket": "homie-6b680.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144933553017:android:0b3f9c52a0488920a325a8",
+        "android_client_info": {
+          "package_name": "com.example.homie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144933553017-49udphqquf60nu46cmd4311alf7obst8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homie",
+            "certificate_hash": "6706b1bad3adcdbba1180c8dc861968cc0a33916"
+          }
+        },
+        {
+          "client_id": "144933553017-6jvqlqohfbd6g8gpgn85vrklf96e7h3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZytru1GGc4x9cihMBezH1fVt_IPYB_v4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144933553017-6jvqlqohfbd6g8gpgn85vrklf96e7h3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

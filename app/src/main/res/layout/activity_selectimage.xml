@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selectimage">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#009688"
+        android:layout_height="200dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_add_a_photo_black_24dp"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+<TextView
+    android:layout_marginTop="20dp"
+    android:textSize="17dp"
+    android:gravity="center"
+    android:layout_marginBottom="20dp"
+    android:layout_width="match_parent"
+    android:text="Attach an image"
+    android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_image_black_24dp"
+            android:id="@+id/imagee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+            <Button
+                android:layout_width="200dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/chooseBtn"
+                android:background="#2196F3"
+                android:textColor="#fff"
+                android:text="Choose"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_marginTop="2dp"
+                android:id="@+id/Advertisebtn"
+                android:background="#FF9800"
+                android:textColor="#fff"
+                android:text="Advertise"
+                android:layout_height="wrap_content"/>
+            <ProgressBar
+                android:id="@+id/probar"
+                android:tag="Loading.."
+                android:layout_width="100dp"
+                android:visibility="invisible"
+                android:layout_height="100dp"/>
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

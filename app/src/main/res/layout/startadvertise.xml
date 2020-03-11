@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:gravity="bottom"
+    android:padding="30dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:textColor="#B3B3B3"
+        android:textSize="20dp"
+        android:padding="2dp"
+        android:text="Sell Your Food To More Customers.\n Do it today to reach your potiential customers "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<ImageView
+    android:layout_width="match_parent"
+    android:src="@drawable/picture"
+    android:layout_height="330dp"/>
+<Button
+    android:layout_width="match_parent"
+    android:textColor="#fff"
+    android:id="@+id/start"
+    android:elevation="25dp"
+    android:layout_margin="20dp"
+    android:background="@color/colorPrimary"
+    android:text="Get started"
+    android:layout_height="wrap_content"/>
+</LinearLayout>
